@@ -11,11 +11,6 @@ Meet & Coffee es una plataforma que te permite compartir tus conocimientos mient
 - HTML
 - CSS
 
-## Contacto
-
-¿Tienes alguna pregunta o sugerencia?
-- [LinkedIn](www.linkedin.com/in/smullervidal)
-
 ## Créditos
 
 - Autor: Sigrid Müller Vidal
