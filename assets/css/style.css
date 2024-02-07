@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #000f08;
+}
+
+/* =========== NAV ================ */
+
+nav {
+  background-color: #000f08;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.logo {
+  list-style-type: none;
+  margin-left: 60px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  filter: invert(100%);
+}
+
+/*========== HEADER =========*/
+
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Modificación de la fuente */
+  font-family: Open sans;
+  text-shadow: 0px 3px 6px black;
+  text-align: right;
+  color: white;
+
+
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-right: 90px;
+  letter-spacing: 3px;
+}
+
+
+/* ========= SECTION UBICACION =========== */
+
+#ubicacion {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+#ubicacion h2 {
+  padding: 15px;
+}
+
+#ubicacion p {
+  font-size: 14px;
+}
+
+.img-ubicacion {
+  width: 28%;
+}
+
+/* ======== SECTION PROXIMA CHARLA ======== */
+
+#Proxima-Charla {
+  background: #a4452c;
+  padding: 50px;
+  color: white;
+}
+#Proxima-Charla .wrapper {
+  width: 800px;
+  margin: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.wrapper img {
+  width: 25%;
+}
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+}
+
+.wrapper img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.texto h3,
+h4 {
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.texto span,
+p {
+  padding-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.texto span {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.texto p {
+  font-size: 14px;
+}
+
+/* =========== SECTION EVENTOS =========== */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.eventos h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.columns img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.columns h3 {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+/* ==== FOOTER ===== */
+
+footer {
+  background-color: #000f08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer .icono,
+.copy {
+  color: #f4f4f4;
+}
+
+footer .copy {
+  font-size: 10px;
+}
+
+.iconos i {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* PAGINA EVENTO01 */
+
+/* =============== SECTION SIMPOSIO-VENGAN ========= */
+.simposio-vegan {
+  width: 1085px;
+  margin: 40px auto;
+  text-align: left;
+  
+}
+.simposio-vegan img {
+  width: 100%;
+  height: 565px;
+  margin: 40px 0;
+}
+.simposio-vegan h1 {
+  font-size: 45px;
+}
+.simposio-vegan h2 {
+  font-size: 40px;
+}
+.simposio-vegan p {
+  margin: 30px 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  color: #000f08;
+}
